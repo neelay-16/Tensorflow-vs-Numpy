@@ -34,7 +34,16 @@ In fact,lazy execution creates a graph internally to store the expression. A rou
 
 ![lazy execution](https://github.com/neelay-16/Tensorflow-vs-Numpy/assets/135517502/7dc00921-a326-4f49-9477-541c27bf5405)
 
-This the reason why we need tensorfloe.
-There is a very popular misconception about numpy that it cannot handle n*n matrix,but it not true. The matrix which we store in numpy as well as tensorflow 
+This the reason why we need tensorflow.
+There is a very popular misconception about numpy that it cannot handle n*n matrix,but its not true. We can store n*n matrix in numpy as well as tensorflow,just the difference is about the lazy execution. 
+
+Note that the example screenshots placed above are very simple example. But the main purpose of these concepts play a major role when there are huge matrices of n*n matrix where we perform the operations on them. 
+
+Another reason of using tensorflow is about the Distributed Computing:
+Distributed computing is a paradigm in which multiple computers work together to solve a complex task, often by dividing it into smaller sub-tasks that are processed concurrently. This approach enhances performance, scalability, and fault tolerance in computing systems.
+In this technique,when we have a very huge amount of data in complex form which can reduce the performance of a single system,so we distribute the functions performed by our code so that the huge amount of data is being distributed and these systems output when combined give us the perfect desired output. The systems to be used can be of any O.S,any RAM,any IP just the thing to focus on is that all these systems should work towards one specific goal. A rough figure of  Distributed Computing can be visualized as:
+
+![Distributed Computing](https://github.com/neelay-16/Tensorflow-vs-Numpy/assets/135517502/7f5fe372-7067-48fb-aef4-101878d05e40)
+
 
 
